@@ -5,7 +5,7 @@ import ButtonPanel from './ButtonPanel';
 export default function App() {
   return (
     <>
-      <Display />
+      <Display result="0" />
       <ButtonPanel />
     </>
   );
