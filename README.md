@@ -13,10 +13,6 @@ The project is using classes instead of hooks.
 Please, be mindful this project is under construction. 🛠
 
 
-## Live Version
-
-[Live version here!](https://calculator-no4.herokuapp.com)
-
 ## Prerequisites
 
 - [Node.js](https://nodejs.org/en/) installed.
@@ -34,6 +30,10 @@ To get a local copy up and running, follow these simple example steps.
   Something like:
 
         $ cd User/Documents/calculator/calculator-app
+
+- Now run:
+
+      $npm install
 
 - You are done with the installations! Now to run the project, first type:
 
