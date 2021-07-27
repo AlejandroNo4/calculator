@@ -1,7 +1,7 @@
 function App() {
   return (
     <div>
-      Hello from App!
+      Hello from App
     </div>
   );
 }
