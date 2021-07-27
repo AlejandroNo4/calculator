@@ -1,75 +1,78 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Calculator
 
-> One paragraph statement about the project.
+> A simple calculator app using React.
 
-![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+This project is part of the Microverse curriculum "React." 
 
-## Built With
+The calculator was made to practice the creation of a web application using React.
+The project is using classes instead of hooks.
 
-- Major languages
-- Frameworks
-- Technologies used
+Please, be mindful this project is under construction. 🛠
 
-## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+## Live Version
 
+[Live version here!](https://calculator-no4.herokuapp.com)
+
+## Prerequisites
+
+- [Node.js](https://nodejs.org/en/) installed.
+- Vs Code
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+To get a local copy up and running, follow these simple example steps.
 
+- At first, you have to clone this repository. Open your terminal and paste this without the $ sign.
 
-To get a local copy up and running follow these simple example steps.
+      $ git clone https://github.com/AlejandroNo4/calculator.git
 
-### Prerequisites
+- Now that you have the repository in your local machine. Change the direction of the local file with your terminal. Just type "$ cd" (without the $ sign) and the path to reach the calculator-app folder.<br/>
+  Something like:
 
-### Setup
+        $ cd User/Documents/calculator/calculator-app
 
-### Install
+- Now run 
 
-### Usage
+      $npm install
 
-### Run tests
+- You are done with the installations! Now to run the project, first type:
 
-### Deployment
+        $ npm start
 
+- This will automatically open the app on your browser.
 
+<br/>
 
-## Authors
+## Built With
+
+- Javascript
+- VS Code
+- Git
+- HTML
+- React
+- JSX
+
+## Author
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@AlejandroNo4](https://github.com/AlejandroNo4)
+- Twitter: [@Alejand80002666](https://twitter.com/Alejand80002666)
+- LinkedIn: [Alejandro Contreras Rodriguez](https://www.linkedin.com/in/alejandro-contreras-rodriguez-b524821b5)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [Issues page](https://github.com/AlejandroNo4/calculator/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
