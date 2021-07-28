@@ -13,7 +13,7 @@ const ButtonPanel = () => (
       <Button name="7" />
       <Button name="8" />
       <Button name="9" />
-      <Button name="x" />
+      <Button name="X" />
     </div>
     <div>
       <Button name="4" />

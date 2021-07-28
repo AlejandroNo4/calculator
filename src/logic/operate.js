@@ -1,21 +1,18 @@
-import Big from "big.js";
+import Big from 'big.js';
 
 const operate = (numberOne, numberTwo, operation) => {
+  const oneB = Big(numberOne);
+  const twoB = Big(numberTwo);
 
-  const oneB = Big(numberOne)
-  const twoB = Big(numberTwo)
+  const aritmethic = {
+    addition: oneB.plus(twoB),
+    substraction: oneB.minus(twoB),
+    multiplication: oneB.times(twoB),
+    division: oneB.div(twoB),
+    percentage: (oneB * twoB) / 100,
+  };
 
-  const aritmethic ={
-    '+': oneB.plus(twoB),
-    '-': oneB.minus(twoB),
-    'x': oneB.times(twoB) ,
-    '/': oneB.div(twoB),
-    '%': (oneB * twoB) / 100,
-  }
-
-  return aritmethic[operation]
-
+  return aritmethic[operation];
 };
 
-
-export default operate
+export default operate;
