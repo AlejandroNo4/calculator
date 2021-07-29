@@ -9,7 +9,7 @@ const operate = (numberOne, numberTwo, operation) => {
     substraction: oneB.minus(twoB),
     multiplication: oneB.times(twoB),
     division: oneB.div(twoB),
-    percentage: (oneB * twoB) / 100,
+    percentage: oneB.mod(twoB),
   };
 
   return aritmethic[operation];
