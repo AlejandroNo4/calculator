@@ -30,8 +30,8 @@ const calculate = (dataObj, btnName) => {
     operator: ['+', '-', '÷', '%', 'x'],
   };
 
-  if (typeOfButton.numComposer.includes(btnName)) {
-    if (total === '0') {
+  if (typeOfButton.numComposer.includes(btnName) && next !== '-') {
+    if (total === '0' || total === null) {
       if (next === '0' && btnName === '0') {
         next = '0';
       } else if (next === '0' || total === next) {
@@ -78,7 +78,7 @@ const calculate = (dataObj, btnName) => {
     }
   }
 
-  if (typeOfButton.operator.includes(btnName)) {
+  if (typeOfButton.operator.includes(btnName) && next !== '-') {
     if (total === next) {
       next = `${total}${btnName}`;
       total = '0';

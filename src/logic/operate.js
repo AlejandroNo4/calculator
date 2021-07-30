@@ -14,7 +14,7 @@ const operate = (numberOne, numberTwo, operation) => {
 
   const res = aritmethic[operation];
 
-  return parseFloat(res);
+  return parseFloat(res).toString();
 };
 
 export default operate;
