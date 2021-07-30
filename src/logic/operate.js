@@ -12,7 +12,9 @@ const operate = (numberOne, numberTwo, operation) => {
     percentage: oneB.mod(twoB),
   };
 
-  return aritmethic[operation];
+  const res = aritmethic[operation];
+
+  return parseFloat(res);
 };
 
 export default operate;
