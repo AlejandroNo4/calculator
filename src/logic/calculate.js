@@ -68,7 +68,9 @@ const calculate = (dataObj, btnName) => {
       } else if (btnName === '=') {
         inputsArr.push(next);
         const num = splitOperation(inputsArr);
-        if (num.length === 3 && num[2] !== '') {
+        if (num[1] + num[2] === '÷0') {
+          next = 'Impossible';
+        } else if (num.length === 3 && num[2] !== '') {
           total = operate(parseFloat(num[0]), parseFloat(num[2]), operation);
           next = total;
         }
@@ -77,15 +79,17 @@ const calculate = (dataObj, btnName) => {
   }
 
   if (typeOfButton.operator.includes(btnName)) {
-    if (total !== next) {
-      next = operation !== '' ? next : `${next}${btnName}`;
-      const lastChar = next.slice(-1);
-      if (Object.keys(operatorNames).includes(lastChar)) {
-        next = next.replace(/.$/, btnName);
-      }
+    if (total === next) {
+      next = `${total}${btnName}`;
+      total = '0';
       operation = operatorNames[btnName];
-      inputsArr.push(next);
     }
+    next = operation !== '' ? next : `${next}${btnName}`;
+    const lastChar = next.slice(-1);
+    if (Object.keys(operatorNames).includes(lastChar)) {
+      next = next.replace(/.$/, btnName);
+    }
+    operation = operatorNames[btnName];
   }
 
   const finalObj = { total, next, operation };
