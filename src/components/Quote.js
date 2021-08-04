@@ -2,9 +2,11 @@ import React from 'react';
 import NavBar from './Nav';
 
 const Quote = () => (
-  <div>
+  <div className="body">
     <NavBar />
-    <h1>Hello from Quote</h1>
+    <div className="main-container">
+      <h1 className="quote">Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding. –William Paul Thurston</h1>
+    </div>
   </div>
 );
 

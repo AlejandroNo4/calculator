@@ -18,7 +18,7 @@ const App = () => {
 
   return (
     <>
-      <div>
+      <div className="calculatorContainer">
         <Display result={next.toString()} />
         <ButtonPanel clickHandler={handleClick} />
       </div>

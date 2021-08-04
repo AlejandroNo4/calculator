@@ -3,10 +3,12 @@ import App from './App';
 import NavBar from './Nav';
 
 const Calculator = () => (
-  <div>
+  <div className="body">
     <NavBar />
-    <h1>Hello from Calculator</h1>
-    <App />
+    <div className="main-container">
+      <h1 className="title">Let’s do some math!</h1>
+      <App />
+    </div>
   </div>
 );
 
