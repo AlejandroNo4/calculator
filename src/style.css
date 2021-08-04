@@ -7,7 +7,8 @@
 }
 
 .body {
-  height: 100vh;
+  min-height: 100vh;
+  padding-bottom: 75px;
   background: rgb(188,76,112);
   background: linear-gradient(332deg, rgba(188,76,112,1) 27%, rgba(5,34,54,1) 27%);
 }
@@ -18,12 +19,12 @@
   align-items: center;
   margin-bottom: 50px;
   padding: 15px 20px;
-  background-color: #F6F0E7;
+  border-bottom: 2px solid #F6F0E7;
 }
 
 .logo {
   font-size: 2em;
-  color: #150A10;
+  color: #F6F0E7;
   padding-left: 40px ;
 }
 
@@ -40,11 +41,11 @@ padding: 0 15px;
 
 .link {
   text-decoration: none;
-  color: black;
+  color: #F6F0E7;
 }
 
 .link:visited {
-  color: black;
+  color: #F6F0E7;
 }
 
 .main-container {

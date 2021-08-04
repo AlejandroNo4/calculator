@@ -1,9 +1,7 @@
 import React from 'react';
-import NavBar from './Nav';
 
 const Home = () => (
-  <div className="body">
-    <NavBar />
+  <div>
     <div className="home-container">
       <h1 className="title">Welcome to our page!</h1>
       <p className="text">
