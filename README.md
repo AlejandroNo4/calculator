@@ -10,7 +10,11 @@ This project is part of the Microverse curriculum "React."
 The calculator was made to practice the creation of a web application using React.
 The project is using classes instead of hooks.
 
-Please, be mindful this project is under construction. 🛠
+<br/>
+
+<p align="center">
+  <img src="app_screenshot.png" width="800">
+</p>
 
 
 ## Live Version
@@ -46,6 +50,16 @@ To get a local copy up and running, follow these simple example steps.
 - This will automatically open the app on your browser.
 
 <br/>
+
+## Run Tests
+
+- On the terminal, type:
+
+        $ npm test
+
+- If there is a message that says "No tests found related to files changed since the last commit," press "a"
+
+- Press "q" to quit watch mode.
 
 ## Built With
 
